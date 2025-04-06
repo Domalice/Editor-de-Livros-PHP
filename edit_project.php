@@ -103,6 +103,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </section>
     </main>
+
+    <!-- Notes Sidebar -->
+    <div id="note-sidebar" style="display:none; position:fixed; top:20%; right:0; background:#f9f9f9; width:300px; height:300px; padding:15px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); z-index:1000;">
+        <textarea id="note-content" style="width:100%; height:200px;"></textarea>
+        <button onclick="saveNote()">Save Note</button>
+    </div>
+
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>

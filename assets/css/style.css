@@ -27,6 +27,13 @@ li {
     text-align: left;
 }
 
+#title {
+    padding: 0.5em;
+    border: 0;
+    margin-bottom: 1.5em;
+    border-radius: 10px;
+}
+
 .div-absolute p {
     text-align: left;
 }
@@ -75,16 +82,15 @@ section {
 .div-absolute {
     position: absolute;
     width: 100%;
-    max-width: 320px;
+    max-width: 500px;
     background: #202020;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 1px 3px 5px rgb(255 255 255 / 40%);
     text-align: center;
-    height: 325px;
+    height: 660px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     border: 1px solid #fff;
 }
@@ -184,6 +190,7 @@ section {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     line-height: 1.5;
+    height: 440px;
 }
 
 .project-meta {
@@ -230,4 +237,27 @@ section {
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     resize: vertical;
+    border-radius: 12px;
+}
+
+.note {
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: both;
+    overflow: auto;
+    z-index: 9999;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    user-select: none;
 }
