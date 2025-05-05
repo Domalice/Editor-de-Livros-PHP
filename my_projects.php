@@ -37,7 +37,7 @@ $projects = $result->fetch_all(MYSQLI_ASSOC);
                 </picture>
                 <div class="container div-absolute">
                     <div class="d-flex">
-                        <h1>Meus Projetos</h1>
+                        <h1>Meus Projetos </h1>
 
                         <?php if (!empty($success)): ?>
                             <div class="success"><?php echo $success; ?></div>
