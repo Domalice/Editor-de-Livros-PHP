@@ -2,7 +2,7 @@
 require_once 'config.php';
 require_once 'auth.php';
 
-// Ensure user is logged in
+// Ensure user is logged in y
 requireLogin();
 
 // Get current user data
